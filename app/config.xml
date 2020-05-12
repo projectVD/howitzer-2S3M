@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="howitzer_2s3m" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>2С3М</name>
+    <description>
+        У навчальному посібнику розглянуто будову та дію складових частин 152-мм гаубиці 2А33,
+        штатних боєприпасів до неї (осколково-фугасних, кумулятивних снарядів, снарядів із готовими
+        уражувальними елементами, бойових зарядів та підривників).
+    </description>
+    <author email="vvdehtiarov@gmail.com" href="https://www.facebook.com/profile.php?id=100022376462010">
+        Vladyslav Dehtiarov
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
+    <plugin name="cordova-plugin-splashscreen" source="npm" />  
+    <preference name="SplashScreenDelay" value="3000" />  
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="true" /> 
+    <allow-navigation href="https://*youtube.com/*"/>
+    <icon src="icon.png" />
+    <splash src="splash.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
